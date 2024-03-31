@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+</head>
+
+<body>
+ <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <img class="library-logo"
+        src="https://www.shutterstock.com/shutterstock/photos/2157748937/display_1500/stock-vector-stack-of-books-school-books-pile-education-book-heap-bookstore-library-icon-science-literature-2157748937.jpg"
+        width="80" height="60">
+      <a class="navbar-brand" href="#">LibraryBank</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2 library-form" type="search" placeholder="Search by book name"
+            aria-label="Search">
+        </form>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Add New Book
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Add New Book</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="titleInp" class="text">Book Title</label>
+          <input type="text" class="form-control" id="booktitle" aria-describedby="emailHelp" >
+        </div>
+        <div class="mb-3">
+          <label for="priceInp" class="text">Book Cost</label>
+          <input type="text" class="form-control" id="bookprice">
+        </div>
+        <div class="mb-3">
+          <label for="readInp" class="text">Book URL</label>
+          <input type="text" class="form-control" id="bookimage" aria-describedby="emailHelp">
+        </div>
+      </div>
+      <div class="modal-footer">
+        
+        <button id="sumbit"  type="button" class="btn btn-primary form-btn">Add Book</button>
+      </div>
+    </div>
+  </div>
+</div>
+      
+      <a href="order.html">  <i class="bi bi-cart"> </i> </a>
+        <span class="quantity">0</span>
+        <div class="library-link">
+          <a class="library-link1" href="#">Wish List</a>
+          <span class="line">|</span>
+          <a id="logoutBtn" class="library-link2" href="register.html">Log Out</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <nav class="navbar navbar-expand-lg main-navbar">
+    <div class="container-fluid">
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">All Books</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link active" aria-current="page" href="#">Category</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Writer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Publisher</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">PDF Books</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="library-inline">
+    <div class="library-pic1">
+      <img width="500" height="400"
+        src="https://thumbs.dreamstime.com/b/librarian-concept-set-library-staff-cataloguing-sorting-books-archive-knowledge-education-idea-llibrary-reading-room-guid-227515878.jpg">
+      <h1 class="home-heading1">Good books don't give up <br> all their secret at once. <button type="button"
+          class="btn btn-primary library-btn1">Order Now</button></h1>
+    </div>
+  </div>
+  
+  <div class="d-flex justify-content-center">
+    <p class="new-book-text"> New Books </p>
+  </div>
+  <div id="addingBook" class="library-new-inline">
+    <div class="row">
+      <div class="col">
+        <div class="card library-new-card1" style="width:12rem;">
+          <img  height="200" src="https://images2.penguinrandomhouse.com/cover/9780593422182"
+            class="card-img-top horror-width" alt="...">
+          <div class="card-body">
+            <div class="d-flex justify-content-center">
+              <h5  class="card-title horror-card-title">City of Orange</h5>
+            </div>
+            <div class="d-flex justify-content-center">
+              <p  class="card-text horror-card-text"><s>$50</s> $25</p>
+            </div>
+            <div class="d-flex justify-content-center">
+              <a href="order.html" class="btn btn-primary horror-card-btn">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card library-new-card2" style="width: 12rem;">
+          <img height="200" src="https://i.pinimg.com/474x/a7/91/62/a7916230aedcdce47a4dfbff5247f0ce.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="d-flex justify-content-center">
+              <h5 class="card-title horror-card-title">Past is Rising</h5>
+            </div>
+            <div class="d-flex justify-content-center">
+              <p class="card-text horror-card-text"><s>$30</s> $25</p>
+            </div>
+            <div class="d-flex justify-content-center">
+              <a href="order.html" class="btn btn-primary horror-card-btn">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card library-new-card3" style="width: 12rem;">
+          <img height="200"
+            src="https://www.designforwriters.com/wp-content/uploads/2017/10/design-for-writers-book-cover-tf-2-a-million-to-one.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="d-flex justify-content-center">
+              <h5 class="card-title horror-card-title">Million to One</h5>
+            </div>
+            <div class="d-flex justify-content-center">
+              <p class="card-text horror-card-text"><s>$40</s> $20</p>
+            </div>
+            <div class="d-flex justify-content-center">
+              <a href="order.html" class="btn btn-primary horror-card-btn">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card library-new-card4" style="width: 12rem;">
+          <img height="200"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8pQgJ6FwEyD8aybvbbudrtTY8O_u1plO2oQXEi_URp0qdf4Ajuc99jOGIyFWAzwqJNvA&usqp=CAU"
+            class="card-img-top" alt="...">
+
+          <div class="card-body">
+            <div class="d-flex justify-content-center">
+              <h5 class="card-title horror-card-title">Walk in Shadow</h5>
+            </div>
+            <div class="d-flex justify-content-center">
+              <p class="card-text horror-card-text"> <s>$30</s> $15</p>
+            </div>
+            <div class="d-flex justify-content-center">
+              <a href="order.html" class="btn btn-primary horror-card-btn">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card library-new-card1 top" style="width:12rem;">
+          <img height="200"
+            src="https://bestlifeonline.com/wp-content/uploads/sites/3/2020/10/Lord-of-the-Rings-cover.jpg"
+            class="card-img-top horror-width" alt="...">
+          <div class="card-body">
+            <div class="d-flex justify-content-center">
+              <h5 class="card-title horror-card-title">Lords of Rings</h5>
+            </div>
+            <div class="d-flex justify-content-center">
+              <p class="card-text horror-card-text"><s>$50</s> $25</p>
+            </div>
+            <div class="d-flex justify-content-center">
+              <a href="order.html" class="btn btn-primary horror-card-btn">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card library-new-card2  top" style="width: 12rem;">
+          <img height="200"
+            src="https://www.creatopy.com/blog/wp-content/uploads/2020/08/The-Great-Gatsby-Book-Cover-391x600.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="d-flex justify-content-center">
+              <h5 class="card-title horror-card-title">Great Gatsby</h5>
+            </div>
+            <div class="d-flex justify-content-center">
+              <p class="card-text horror-card-text"><s>$30</s> $25</p>
+            </div>
+            <div class="d-flex justify-content-center">
+              <a href="order.html" class="btn btn-primary horror-card-btn">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card library-new-card3 top" style="width: 12rem;">
+          <img height="200"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK5Cq1mCe74nt68oFfOSlxRVB8qHdMio42U4d1tIgy0efVfLtkKihCWYVQrLDe3yly8pA&usqp=CAU"
+            class="card-img-top" alt="...">
+          <div class="card-body ">
+            <div class="d-flex justify-content-center">
+              <h5 class="card-title horror-card-title">Gate Stairs</h5>
+            </div>
+            <div class="d-flex justify-content-center">
+              <p class="card-text horror-card-text"><s>$40</s> $20</p>
+            </div>
+            <div class="d-flex justify-content-center">
+              <a href="order.html" class="btn btn-primary horror-card-btn">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card library-new-card4 top" style="width: 12rem;">
+          <img height="200" src="https://readherlikeanopenbook.files.wordpress.com/2021/12/great-circle.jpg"
+            class="card-img-top" alt="...">
+
+          <div class="card-body ">
+            <div class="d-flex justify-content-center">
+              <h5 class="card-title horror-card-title">Great Circle</h5>
+            </div>
+            <div class="d-flex justify-content-center">
+              <p class="card-text horror-card-text"> <s>$30</s> $15</p>
+            </div>
+            <div class="d-flex justify-content-center">
+              <a href="order.html" class="btn btn-primary horror-card-btn">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+      <div class="col">
+        <div class="card library-new-card1" style="width:12rem;">
+          <img id="bookPicture" height="200" src=""
+            class="card-img-top horror-width" alt="...">
+          <div class="card-body">
+            <div class="d-flex justify-content-center">
+              <h5 id="bookName"  class="card-title horror-card-title"></h5>
+            </div>
+            <div class="d-flex justify-content-center">
+              <p id="dollarPrice" class="card-text horror-card-text">$</p>
+            </div>
+            <div class="d-flex justify-content-center">
+              <a href="order.html" class="btn btn-primary horror-card-btn">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+  
+  
+  <!-- <div class="border border-success p-2 box-style2 " style="--bs-border-opacity: .5;">
+<img class="five-hundred-books" width="300" height="300" src="https://previews.123rf.com/images/luplupme/luplupme2006/luplupme200600192/149501195-student-character-at-book-stack-vector-illustration-people-read-knowledge-man-woman-study-in-library.jpg">
+  <h1 class="five-hundred-books-text1">
+    500+ Books <br>in One Place
+    <h6>
+      A small river named Duden flows by their place <br>and supplies it with the necessary regelialia
+    </h6>
+  </h1>
+  <h6>
+    A small river named Duden flows by their place <br>and supplies it with the necessary regelialia
+  </h6>
+</div> -->
+
+<script src="app.js" type="module"></script>
+  <script src="book.js" type="module"></script>
+</body>
+
+</html>

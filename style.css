@@ -1,0 +1,387 @@
+/* *{
+    width: 100%;
+    height: 100vh;
+} */
+.picture{
+    width: 400px;
+    height: 400px;
+    margin-left: 80px;
+}
+.container{
+    background-color: #f2f2f2;
+    
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.1); 
+    
+    
+}
+
+.small-input{
+    width: 300px;
+}
+.size{
+    margin-left: 50px;
+}
+.form-label{
+    font-family: 'Salsa', cursive;
+}
+.form-check-label{
+    font-family: 'Salsa', cursive;
+}
+.gender{
+    font-family: 'Salsa', cursive;
+}
+.registeration-btn{
+    font-family: 'Salsa', cursive;
+    
+    margin-left: 250px;
+    
+} 
+.registeration-btn button{
+    background-color:#4285f4 ;
+    border-color:#4285f4 ;
+}
+.para{
+    font-family: 'Salsa', cursive;
+    text-align: center; 
+    font-weight: bold;
+}
+.login-img{
+    width: 300px;
+    height: 300px;
+    /* margin-top: 30px; */
+    margin-left: 50px;
+    margin-bottom: 18px;
+}
+.container1{
+    background-color: #f2f2f2;
+     margin-top: 80px;
+     margin-left: 180px;
+    padding-bottom: 18px;
+    padding-top: 20px;
+    padding-right: 0 !important;
+    padding-left: 0 !important; 
+    width: 800px;
+    
+}
+/* .form{
+    margin-right: 10px;
+} */
+.para1{
+    font-family: 'Salsa', cursive;
+    text-align: center; 
+    font-weight: bold; 
+}
+.link{
+    color: black;
+    font-family: 'Salsa', cursive;
+    margin-left: 150px;
+    
+}
+.btn2{
+    margin-left: 100px;
+    /* margin-top: 10px; */
+    font-family: 'Salsa', cursive;
+    padding: 10px;
+   
+}
+.btn2 button {
+    background-color: lightcoral;
+    border-color: lightcoral;
+}
+.account{
+    font-family: 'Salsa', cursive;
+}
+.link2{
+    color: black;
+}
+.row{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.new{
+    color: black;
+    text-decoration: none;
+}
+.navbar-brand{
+    margin-left: 13px !important;
+    color: #1BC0DE !important;
+    /* font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: large; */
+    font-family: 'Salsa', cursive;
+    font-weight: bold;
+}
+
+  
+  .library-logo{
+    margin-left: 5px !important;
+  }
+  .navbar{
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); 
+  }
+  .library-form{
+    border-radius: 30px;
+    border-color: #1BC0DE;
+    margin-left: 90px;
+    width: 300px;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* font-family: "Ubuntu", sans-serif; */
+    font-family: 'Salsa', cursive;
+    font-weight: bold;
+    color: black;
+    font-size: 13px;
+  }
+  .new-book{
+    font-family: 'Salsa', cursive;
+    color: white;
+    background-color: #1BC0DE;
+    border-color: #1BC0DE;
+    border-radius: 7px;
+    padding: 5px;
+    margin-left: 20px;
+
+  }
+  .new-book :hover{
+    background-color: #1BC0DE !important;
+  }
+  .library-form :hover{
+    border-color: #1BC0DE !important;
+  }
+.bi{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 150px;
+    color: black;
+  }
+  
+  .library-link a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Salsa', cursive; ;
+  }
+  .library-link1{
+    margin-left: 16px !important;
+  }
+  .main-navbar{
+    background-color: #1BC0DE;
+  }
+ .nav-link{
+    font-family:'Salsa', cursive; 
+    color: white !important;
+    margin-left: 38px !important;
+ }
+ .line{
+    font-weight: bold;
+    font-family:'Salsa', cursive; 
+    font-size: 20px;
+ }
+ .home-heading1{
+    margin-top: 150px !important;
+    font-family:'Salsa', cursive; 
+    margin-left: 50px;
+   
+ }
+ .home-heading2{
+    font-family:'Salsa', cursive; 
+    /* margin-left: 50px;  */
+    font-size: 18px;
+    margin-top: 500px;
+    margin-right: 200px;
+    
+ }
+ .library-btn1{
+   background-color: #1BC0DE !important;
+   border-color: #1BC0DE;
+   margin-top: 10px;
+   margin-left:170px;
+   border-radius: 50px !important;
+   font-family:'Salsa', cursive; 
+   }
+ .library-pic1{
+    margin-left: 50px;
+    display: flex;
+    text-align: start;
+ }
+.border{
+    background-color: #1BC0DE;
+    width: 100%;
+    height: 250px;
+    display: inline-flex;
+}
+.library-btn2{
+   
+    color: black;
+    font-family:'Salsa', cursive; 
+   margin-top: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    
+    
+    
+}
+
+.card-link1{
+    font-family:'Salsa', cursive; 
+    text-decoration: none;
+    color: #1BC0DE;
+    font-weight: bold;
+}
+.card-1{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.card-2{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.card-3{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.horror-h1{
+    font-family:'Salsa', cursive; 
+    margin-top: 20px;
+
+}
+.horror-inline1{
+    display: inline-flex;
+    margin-top: 20px;
+}
+.horror-card1{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.horror-card2{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.horror-card3{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.horror-card4{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.horror-card-title{
+    font-family:'Salsa', cursive; 
+    font-weight: bold;
+}
+.horror-card-btn{
+    font-family:'Salsa', cursive; 
+    background-color: #1BC0DE;
+    border-color: #1BC0DE;
+    margin-top: 10px;
+}
+.horror-card-text{
+    font-family:'Salsa', cursive; 
+}
+/* .horror-width{
+    width: 
+} */
+.horror-inline2{
+    display: inline-flex;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.new-book-text{
+    color: black;
+    font-family:'Salsa', cursive; 
+   margin-top: 20px;
+    font-weight: bold;
+    font-size: 27px;
+}
+.library-new-card1{
+    margin-left: 40px;
+}
+.library-new-card2{
+    margin-left: 40px;
+}
+.library-new-card3{
+    margin-left: 40px;
+}
+.library-new-card4{
+    margin-left: 40px;
+}
+.library-new-inline{
+    display: inline-flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.seller{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 540px !important;
+}
+.best-book{
+    color: black;
+    font-family:'Salsa', cursive; 
+   /* margin-top: 20px; */
+    font-weight: bold;
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+}
+.library-seller-inline{
+    display: inline-flex;
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
+.box-style2{
+    height: 350px;
+}
+.five-hundred-books{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.five-hundred-books-text1{
+    font-family:'Salsa', cursive; 
+    color: white;
+    margin-left: 90px;
+    margin-top: 50px;
+    font-size: 50px;
+}
+.quantity{
+    background-color: #1BC0DE;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+   top: -0.1px;
+    left: 80%;
+    padding: 0.5px 8px;
+    margin-top: 10px;
+}
+  #selected-image{
+    display: none;
+  }
+  .top{
+    margin-top: 20px;
+  }
+  .btn-primary{
+    background-color: #1BC0DE !important;
+    border-color: #1BC0DE !important;
+  }
+
+  .google{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+  }
+  .google button{
+    background-color: #4285f4;
+    border-color: #4285f4;
+    color:  black;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 16px;
+  }
